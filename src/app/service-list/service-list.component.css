@@ -1,0 +1,44 @@
+.button {
+  display: inline-block;
+  font-size: 2em;
+  background-color: blue;
+  padding: .5em;
+  border-radius: 4px;
+  color: white;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h2 {
+  display: inline-block;
+}
+
+li img {
+  float: left;
+  margin-right: 2em;
+}
+
+li {
+  clear: both;
+  margin-bottom: 2em;
+  list-style: none;
+}
+
+li blockquote {
+  background-color: lightgrey;
+  padding: 0.2em;
+}
+li blockquote:before {
+  content: ">>"
+}
+
+li blockquote:after {
+  content: "<<"
+}
+
+li p {
+  font-size: 1.5em;
+}

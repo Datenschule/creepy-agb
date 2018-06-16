@@ -2,6 +2,7 @@
 <ul *ngIf="agb">
 <li *ngFor="let service of agb.services">
   <label>
+    <img src="/assets/images/{{service.name | lowercase}}_symbol.png" width="100">
     <input type="checkbox" (click)="selectService(service.id)">
     {{service.name}}
   </label>

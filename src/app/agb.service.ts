@@ -7,7 +7,9 @@ import { Observable, of } from 'rxjs';
 })
 export class AgbService {
 
-  private url = '/assets/data/mock.json';
+  private url = 'assets/data/mock.json';
+
+  selectedServices: Array<number> = [];
 
   constructor(private http:HttpClient) { }
 
@@ -19,5 +21,19 @@ export class AgbService {
   getServices(): Observable<any> {
     console.log('LOAD Service');
     return this.loadData();
+  }
+
+  getSelectedServices() {
+    return this.selectedServices;
+  }
+
+  saveService(id): any {
+    console.log(this.selectedServices, id);
+    let index = this.selectedServices.indexOf(id);
+    if (index >= 0) {
+      return this.selectedServices.splice(index, 1)
+    } else {
+      return this.selectedServices.push(id);
+    }
   }
 }

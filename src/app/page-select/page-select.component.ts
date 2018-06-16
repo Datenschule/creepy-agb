@@ -18,6 +18,14 @@ export class PageSelectComponent implements OnInit {
 
   getAgb() {
     this.agbService.getServices()
-      .subscribe(data => { this.agb = data });
+      .subscribe((data) => {
+        this.agb = data[0];
+      });
+  }
+
+
+  selectService(id) {
+    if (!id) { return; }
+    this.agbService.saveService(id);
   }
 }

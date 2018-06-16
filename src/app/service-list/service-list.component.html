@@ -1,3 +1,40 @@
-<p>
-  service-list works!
-</p>
+<h1>Wer weiss wieviel?</h1>
+
+<div *ngFor="let serv of agb.services">
+  <div *ngIf="services.indexOf(serv.id) >= 0">
+    <h2>{{serv.name}}</h2>
+    <a href="{{serv.link}}">Read yourself!</a>
+    <ul>
+      <li>
+        <h3>{{agb.categories.adressbuch}}</h3>
+        <p>{{serv.adressbuch.answer}}</p>
+        <blockquote>{{serv.adressbuch.quote}}</blockquote>
+        <p>{{serv.adressbuch.add}}</p>
+      </li>
+      <li>
+        <h3>{{agb.categories.standort}}</h3>
+        <p>{{serv.standort.answer}}</p>
+        <blockquote>{{serv.standort.quote}}</blockquote>
+        <p>{{serv.standort.add}}</p>
+      </li>
+      <li>
+        <h3>{{agb.categories.nutzungsverhalten}}</h3>
+        <p>{{serv.nutzungzverhalten.answer}}</p>
+        <blockquote>{{serv.nutzungzverhalten.quote}}</blockquote>
+        <p>{{serv.nutzungzverhalten.add}}</p>
+      </li>
+      <li>
+        <h3>{{agb.categories.drittanbieter}}</h3>
+        <p>{{serv.drittanbieter.answer}}</p>
+        <blockquote>{{serv.drittanbieter.quote}}</blockquote>
+        <p>{{serv.drittanbieter.add}}</p>
+      </li>
+      <li>
+        <h3>{{agb.categories.content}}</h3>
+        <p>{{serv.content.answer}}</p>
+        <blockquote>{{serv.content.quote}}</blockquote>
+        <p>{{serv.content.add}}</p>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,7 +1,11 @@
-<p>
-  page-select works!
-</p>
+<h2>Welche Dienste benutzt du?</h2>
+<ul *ngIf="agb">
+<li *ngFor="let service of agb.services">
+  <label>
+    <input type="checkbox" (click)="selectService(service.id)">
+    {{service.name}}
+  </label>
+</li>
+</ul>
 
-<a routerLink="/services">weiter</a>
-
-{{agb}}
+<a routerLink="/services" class="button">weiter</a>

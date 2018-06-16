@@ -17,6 +17,7 @@ export class PageSelectComponent implements OnInit {
   }
 
   getAgb() {
-    this.agb = this.agbService.loadData();
+    this.agbService.getServices()
+      .subscribe(data => { this.agb = data });
   }
 }

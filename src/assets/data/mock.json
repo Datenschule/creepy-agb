@@ -1,0 +1,165 @@
+[
+  {
+    "_id": "5b24dbb0abe1e29b6deca7fa",
+    "index": 0,
+    "categories": {
+      "netzwerk": "",
+      "standort": "",
+      "nutzungsverhalten": "",
+      "content": "",
+      "drittanbieter": ""
+    },
+    "services": [
+      {
+        "id": "<ReferenceError: id is not defined>",
+        "name": "Burch",
+        "link": "Evelyn",
+        "netzwerk": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "standort": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "content": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        }
+      },
+      {
+        "id": "<ReferenceError: id is not defined>",
+        "name": "Angelica",
+        "link": "Marietta",
+        "netzwerk": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "standort": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "content": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        }
+      },
+      {
+        "id": "<ReferenceError: id is not defined>",
+        "name": "Martina",
+        "link": "Sheryl",
+        "netzwerk": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "standort": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "content": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        }
+      },
+      {
+        "id": "<ReferenceError: id is not defined>",
+        "name": "Charlene",
+        "link": "Jessie",
+        "netzwerk": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "standort": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "content": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        }
+      },
+      {
+        "id": "<ReferenceError: id is not defined>",
+        "name": "Victoria",
+        "link": "Morse",
+        "netzwerk": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "standort": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "content": {
+          "answer": true,
+          "quote": "foo quote",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": false,
+          "quote": "foo quote",
+          "add": ""
+        }
+      }
+    ]
+  }
+]

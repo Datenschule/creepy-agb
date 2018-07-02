@@ -1,0 +1,12 @@
+<h2>Welche Dienste benutzt du?</h2>
+<ul *ngIf="services">
+  <li *ngFor="let service of services">
+    <label>
+      <img src="/assets/images/{{service.name | lowercase}}_symbol.png" width="100">
+      <input type="checkbox" (click)="selectService(service.id)">
+      {{service.name}}
+    </label>
+  </li>
+</ul>
+
+<a routerLink="/services" class="button">weiter</a>

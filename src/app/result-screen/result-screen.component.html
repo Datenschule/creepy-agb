@@ -1,0 +1,60 @@
+<div class="burrito">
+  <div class="result">
+    <div *ngFor="let serv of services">
+      <div *ngIf="selected.indexOf(serv.id) >= 0">
+        <h2>
+          <img src="/assets/images/{{serv.name | lowercase}}_symbol.png" width="100">
+          {{serv.name}}</h2>
+        <p><a href="{{serv.link}}">Lies die AGB!</a></p>
+        <ul>
+          <li>
+            <img src="/assets/images/kontakte.jpg">
+            <h3>{{categories.adressbuch}}</h3>
+            <p>{{serv.adressbuch.answer}}</p>
+            <blockquote>{{serv.adressbuch.quote}}</blockquote>
+            <p>{{serv.adressbuch.add}}</p>
+          </li>
+          <li>
+            <img src="/assets/images/standort.jpg">
+            <h3>{{categories.standort}}</h3>
+            <p>{{serv.standort.answer}}</p>
+            <blockquote>{{serv.standort.quote}}</blockquote>
+            <p>{{serv.standort.add}}</p>
+          </li>
+          <li>
+            <img src="/assets/images/verhalten.jpg">
+            <h3>{{categories.nutzungsverhalten}}</h3>
+            <p>{{serv.nutzungsverhalten.answer}}</p>
+            <blockquote>{{serv.nutzungsverhalten.quote}}</blockquote>
+            <p>{{serv.nutzungsverhalten.add}}</p>
+          </li>
+          <li>
+            <img src="/assets/images/drittanbieter.jpg">
+            <h3>{{categories.drittanbieter}}</h3>
+            <p>{{serv.drittanbieter.answer}}</p>
+            <blockquote>{{serv.drittanbieter.quote}}</blockquote>
+            <p>{{serv.drittanbieter.add}}</p>
+          </li>
+          <li>
+            <img src="/assets/images/inhalte.jpg">
+            <h3>{{categories.content}}</h3>
+            <p>{{serv.content.answer}}</p>
+            <blockquote>{{serv.content.quote}}</blockquote>
+            <p>{{serv.content.add}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="clear: both; margin-bottom: 3em;">
+      <a routerLink="/select" class="button">zurück</a>
+    </div>
+  </div>
+
+  <div class="score">
+    <h1>Unser Creepy Score</h1>
+    <iframe src="//datawrapper.dwcdn.net/1VQsy/1/" scrolling="no" frameborder="0" allowtransparency="true" width="748" height="400"></iframe>
+
+    <iframe src="//datawrapper.dwcdn.net/jB7wJ/1/" scrolling="no" frameborder="0" allowtransparency="true" width="748" height="400"></iframe>
+  </div>
+</div>

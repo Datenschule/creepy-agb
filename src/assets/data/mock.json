@@ -1,0 +1,224 @@
+[
+  {
+    "index": 0,
+    "categories": {
+      "adressbuch": "Darf dein gesamtes Adressbuch (inklusive Informationen über Personen Geburtstag etc.) speichern und komplett nutzen",
+      "standort": "Willst du, dass wir immer wissen wo du bist?",
+      "nutzungsverhalten": "Dürfen wir beobachten, was du magst und wie du dich auf unserer Seite verhältst?",
+      "content": "Bist du damit einverstanden, dass wir deine Stimme nutzen?",
+      "drittanbieter": "Dürfen wir deine persönlichen gespeicherten Daten an andere Unternehmen weitergeben und verkaufen?"
+    },
+    "services": [
+      {
+        "id": 1,
+        "name": "Musical.ly",
+        "link": "https://www.musical.ly/de/privacy",
+        "adressbuch": {
+          "answer": "nein",
+          "quote": "Informationen für deutsche Nutzer der App. Wenn Sie als deutscher Nutzer über Ihre Telefonkontakte weitere Nutzer finden möchten, werden wir Ihre Mobilfunknummer keinem anderen Nutzer mitteilen, sondern erlauben es anderen Nutzern lediglich, gehashte Namen und Mobilfunknummern aus ihren Adressbüchern an uns zu übermitteln (nachdem diese Daten auf dem Mobilgerät des Nutzers gehasht wurden). Wir gleichen die Hashwerte mit Hashwerten von Namen und Mobilfunknummern von anderen Nutzern ab. Nicht passende Hashwerte werden umgehend gelöscht, während wir Ihnen als Uploader der gehashten Kontakte passende Nutzer anzeigen. Wir greifen nicht auf ungehashte Kontakte zu, die auf ihrem Gerät gespeichert sind. ",
+          "add": ""
+        },
+        "standort": {
+          "answer": "jein",
+          "quote": "Wenn Sie unsere Dienste nutzen, erheben wir automatisch Ihre IP-Adresse (ohne GPS-Daten)",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": "ja",
+          "quote": "Wenn Sie unsere Dienste nutzen, erheben wir automatisch [...] Ihren Browserverlauf [...] sowie Informationen zu Ihrer Nutzung der App, z. B. die Kommentare, die Sie in der App hinterlassen, oder sonstige nutzergenerierte Inhalte und Videoinhalte, die Sie in unserer App veröffentlichen. Darüber hinaus erheben wir Verhaltensinformationen, wie z. B. das Sammeln von Interaktionspunkten bzw. sog. Engagement Scores (Likes, Kommentare, wiederholte Ansichten von Videos order Profilen) und ordnen Nutzer basierend auf Ihrem Verhalten zusammen mit Marketinginformationen wie Opt-Ins und Kommunikationspräferenzen einander zu. Wir erheben auch Daten über die Verknüpfung Ihrer Kontakt- oder Abonnentendaten mit Ihrer Aktivität auf unseren Diensten oder durch geräteübergreifendes Verknüpfen Ihrer Aktivität in unseren Diensten anhand Ihrer E-Mail-Adresse oder Ihrer Login-Daten für Social-Media-Seiten.",
+          "add": ""
+        },
+        "content": {
+          "answer": "ja",
+          "quote": "Um Sie als Ersteller Ihrer Nutzerinhalte identifizieren zu können, gewähren Sie der Gesellschaft – vorbehaltlich unserer Datenschutzrichtlinie und der Datenschutzeinstellungen Ihres Kontos – darüber hinaus eine gebührenfreie, widerrufbare Lizenz zur Nutzung Ihres Nutzernamens, -bildes, Ihrer Stimme und Ihres Ebenbildes (zusammenfassend im Folgenden „Profil“). ",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": "ja",
+          "quote": "Wir können Ihre personenbezogenen Daten an ausgewählte Dritte innerhalb oder außerhalb Ihres Landes weitergeben. Dazu gehören: unsere Geschäftspartner. [...] unsere Werbekunden und Werbenetzwerke, [...] oder Analyse- und Suchmaschinenanbieter [...] auch an jedes Mitglied oder verbundene Unternehmen unseres Konzerns innerhalb oder außerhalb Ihres Landes weitergeben, einschließlich unserer Tochtergesellschaften, unserer Dachgesellschaft und ihren Tochtergesellschaften, sowie an Unternehmen, die wir beherrschen, von denen wir beherrscht werden oder die unter gemeinsamer Beherrschung stehen, an unsere Dienstleister und strategischen Geschäftspartner sowie ihre jeweiligen Tochtergesellschaften [...]. Zu Moderationszwecken (z. B. Verhinderung illegaler Nutzung), zur Steigerung von Nutzerzahlen und der Entwicklung, Planung sowie Auswertung von Daten zum Zweck des Betriebs unserer Dienste, übermitteln wir Ihre personenbezogenen Daten an unsere Tochtergesellschaft Beijing Jiyun Interaction Technology Co., Ltd. in Chin. Wir können Ihre Daten unter Umständen an Strafverfolgungsbehörden, öffentliche Behörden oder Steuerbehörden oder andere Organisationen weitergeben, wenn wir gesetzlich dazu verpflichtet sind, oder wenn wir in gutem Glauben davon ausgehen, dass eine solche Nutzung vernünftigerweise erforderlich ist [...]",
+          "add": ""
+        }
+      },
+      {
+        "id": 2,
+        "name": "Snapchat",
+        "link": "https://www.snap.com/de-DE/privacy/privacy-policy/",
+        "adressbuch": {
+          "answer": "ja",
+          "quote": "Telefonbuch des Geräts. Da es bei Snapchat um deine Kommunikation mit Freunden geht, können wir – mit deiner Erlaubnis – Daten aus deinem Telefonbuch erfassen.",
+          "add": ""
+        },
+        "standort": {
+          "answer": "ja",
+          "quote": "Standortdaten. Wenn du unsere Services nutzt, erfassen wir möglicherweise Daten über deinen Standort. Mit deiner Erlaubnis erfassen wir außerdem mithilfe von GPS, Drahtlosnetzwerken, Funkmasten, WLAN-Zugriffspunkten und anderen Sensoren wie Gyroskopen, Beschleunigungsmessern und Kompassen Daten über deinen genauen Standort.",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": "ja",
+          "quote": "Wir erfassen Daten über deine Aktivitäten in unseren Services. So können wir beispielsweise Daten erfassen über: die Art und Weise, wie du unsere Services nutzt, z. B. welche Filter du dir anschaust und für deine Snaps verwendest, welche Storys du dir auf Discover anschaust, ob du Spectacles nutzt oder welche Suchanfragen du sendest. Die Art und Weise, wie du mit anderen Snapchattern kommunizierst, wie z. B. ihre Namen, die Uhrzeit und das Datum eurer Kommunikation, wie viele Nachrichten du mit Freunden austauschst, mit welchen Freunden du die meisten Nachrichten austauschst und wie du die Nachrichten benutzt (z. B. wann du eine Nachricht öffnest oder einen Screenshot machst).",
+          "add": ""
+        },
+        "content": {
+          "answer": "ja",
+          "quote": "Soweit dies erforderlich ist, gewährst du, wenn du in öffentlichen Inhalten erscheinst, diese erstellst, hochlädst, postest oder sendest, Snap Inc., unseren verbundenen Unternehmen und unseren Geschäftspartnern das uneingeschränkte, weltweite, zeitlich unbegrenzte Recht und die uneingeschränkte, weltweite, zeitlich unbegrenzte Lizenz, deinen Namen, dein Bild und deine Stimme zu nutzen, und zwar auch in Verbindung mit gewerblichen oder gesponserten Inhalten.",
+          "add": "https://www.snap.com/de-DE/terms/"
+        },
+        "drittanbieter": {
+          "answer": "ja",
+          "quote": "An Dritte. Wir können deine Daten an folgende Dritte weitergeben: An Dienstleister. Wir können Informationen über dich mit Dienstleistern teilen, die Leistungen in unserem Namen erbringen. An Geschäftspartner. Wir können Informationen über dich mit Geschäftspartnern teilen, die Leistungen und Funktionalitäten erbringen.",
+          "add": ""
+        }
+      },
+      {
+        "id": 3,
+        "name": "Whatsapp",
+        "link": "https://www.whatsapp.com/legal/?eea=1#privacy-policy",
+        "adressbuch": {
+          "answer": "ja",
+          "quote": "Im Einklang mit geltenden Gesetzen stellst du uns regelmäßig die Telefonnummern von WhatsApp Nutzern und anderen Kontakten in deinem Mobiltelefon-Adressbuch zur Verfügung, darunter sowohl die Nummern von Nutzern unserer Dienste als auch die von deinen sonstigen Kontakten. ",
+          "add": ""
+        },
+        "standort": {
+          "answer": "ja",
+          "quote": "[...] wenn du dies auswählst [...]",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": "ja",
+          "quote": "Wir erfassen Informationen über deine Aktivität auf unseren Diensten. Dies umfasst auch Informationen über deine Aktivität (beispielsweise wie du unsere Dienste nutzt, deine Einstellungen für Dienste, wie du mit anderen unter Nutzung unserer Dienste interagierst sowie Zeitpunkt, Häufigkeit und Dauer deiner Aktivitäten und Interaktionen).",
+          "add": ""
+        },
+        "content": {
+          "answer": "nein",
+          "quote": "",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": "ja",
+          "quote": "Wir gehören zu den Facebook-Unternehmen. Als Teil der Facebook-Unternehmen erhält WhatsApp Informationen von den Facebook-Unternehmen und teilt auch Informationen mit diesen. Dazu gehören die Telefonnummer, die du bei der Registrierung für WhatsApp verifiziert hast, einige Geräteinformationen [...] und einige deiner Nutzungsinformationen [...].",
+          "add": ""
+        }
+      },
+      {
+        "id": 4,
+        "name": "YouTube",
+        "link": "https://policies.google.com/privacy?hl=de",
+        "adressbuch": {
+          "answer": "ja",
+          "quote": "Personen, mit denen Sie kommunizieren oder Inhalte austauschen",
+          "add": ""
+        },
+        "standort": {
+          "answer": "ja",
+          "quote": "Wenn Sie unsere Dienste nutzen, erheben wir Daten zu Ihrem Standort. Dadurch können wir Ihnen Funktionen wie Wegbeschreibungen für Ihren Wochenendausflug oder Spielzeiten von Kinofilmen in Ihrer Nähe anbieten. GPS, IP-Adresse, Sensordaten von Ihrem Gerät Informationen über Objekte in der Nähe Ihres Geräts, wie etwa WLAN-Zugriffspunkte, Funkmasten und Bluetooth-fähige Geräte.",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": "ja",
+          "quote": "Wir erheben in unseren Diensten Daten zu Ihren Aktivitäten. Diese Daten verwenden wir beispielsweise, um Ihnen ein YouTube-Video zu empfehlen, das Ihnen gefallen könnte. Unter anderem könnten folgende Aktivitätsdaten erhoben werden: Begriffe, nach denen Sie suchen, Videos, die Sie sich ansehen, Inhalte und Werbeanzeigen, die Sie sich ansehen und mit denen Sie interagieren, Sprach- und Audiodaten bei Ihrer Nutzung von Audiofunktionen, Kaufaktivitäten, Personen, mit denen Sie kommunizieren oder Inhalte austauschen, Aktivitäten auf Websites und Apps von Drittanbietern, die unsere Dienste nutzen. Der Chrome-Browserverlauf, den Sie mit Ihrem Google-Konto synchronisiert haben Wenn Sie unsere Dienste nutzen, um Anrufe zu tätigen und zu erhalten oder um Nachrichten zu senden und zu empfangen, erheben wir möglicherweise Telefonie-Informationen wie Ihre Telefonnummer, die Anrufernummer, die Nummer des Angerufenen, Weiterleitungsnummern, das Datum und die Uhrzeit von Anrufen und Nachrichten, die Dauer von Anrufen, Routing-Informationen und die Art der Anrufe.",
+          "add": ""
+        },
+        "content": {
+          "answer": "ja",
+          "quote": "Sprach- und Audiodaten bei Ihrer Nutzung von Audiofunktionen",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": "ja",
+          "quote": "Wir stellen personenbezogene Daten unseren verbundenen Unternehmen, anderen vertrauenswürdigen Unternehmen oder Personen zur Verfügung, die diese in unserem Auftrag verarbeiten. Dies geschieht auf der Grundlage unserer Weisungen und im Einklang mit unserer Datenschutzerklärung sowie anderen geeigneten Vertraulichkeits- und Sicherheitsmaßnahmen. Beispielsweise nutzen wir Dienstanbieter zur Unterstützung beim Kundensupport.",
+          "add": ""
+        }
+      },
+      {
+        "id": 5,
+        "name": "Instagram",
+        "link": "https://help.instagram.com/478745558852511/",
+        "adressbuch": {
+          "answer": "ja",
+          "quote": "Außerdem sammeln wir Kontaktinformationen, wenn du diese von einem Gerät hochlädst, synchronisierst oder importierst (wie z. B. ein Adressbuch oder Anrufprotokoll oder eine SMS-Protokollhistorie). Diese verwenden wir beispielsweise, um dir und anderen dabei zu helfen, Personen zu finden, die du möglicherweise kennst, sowie für die anderen unten aufgeführten Zwecke.",
+          "add": ""
+        },
+        "standort": {
+          "answer": "ja",
+          "quote": "",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": "ja",
+          "quote": "Wir erfassen Informationen über die Personen, Seiten, Konten, Hashtags und Gruppen, mit denen du verbunden bist, und darüber, wie du mit ihnen in unseren Produkten interagierst; dies sind beispielsweise Personen, mit denen du am meisten kommunizierst, oder Gruppen, denen du angehörst. [...] Wir erfassen Informationen darüber, wie du unsere Produkte nutzt, beispielsweise über die Arten von Inhalten, die du dir ansiehst bzw. mit denen du interagierst, über die von dir genutzten Funktionen, über die von dir durchgeführten Handlungen, über die Personen oder Konten, mit denen du interagierst, und über die Zeit, Häufigkeit und Dauer deiner Aktivitäten. Zum Beispiel protokollieren wir, wenn du unsere Produkte gerade nutzt bzw. wann du diese zuletzt genutzt hast, und welche Beiträge, Videos und sonstigen Inhalte du dir in unseren Produkten ansiehst. Wir erfassen auch Informationen darüber, wie du Funktionen wie unsere Kamera nutzt.",
+          "add": ""
+        },
+        "content": {
+          "answer": "nein",
+          "quote": "Wir erfassen die Inhalte, Kommunikationen und sonstigen Informationen, die du bereitstellst, wenn du unsere Produkte nutzt; dazu gehören auch deine Registrierung für ein Konto, das Erstellen oder Teilen von Inhalten sowie der Nachrichtenaustausch bzw. das Kommunizieren mit anderen. Dies kann Informationen über die von dir bereitgestellten Inhalte oder solche, die in ihnen enthalten sind (wie Metadaten) umfassen, wie z. B. den Aufnahme-Standort eines Fotos oder das Datum, an dem eine Datei erstellt wurde. Es kann auch das umfassen, was du durch von uns bereitgestellte Funktionen, wie z. B. unsere Kamera, siehst, damit wir dir beispielsweise Masken und Filter, die dir gefallen könnten, vorschlagen oder dir Tipps für die Verwendung des Hochformats geben können.",
+          "add": "(Bilder, Kommunikation, sonstige Inhalte, nicht Stimme)"
+        },
+        "drittanbieter": {
+          "answer": "ja",
+          "quote": "Wir erfassen Informationen über die Personen, Seiten, Konten, Hashtags und Gruppen, mit denen du verbunden bist, und darüber, wie du mit ihnen in unseren Produkten interagierst; dies sind beispielsweise Personen, mit denen du am meisten kommunizierst, oder Gruppen, denen du angehörst. [...] Wir erfassen Informationen darüber, wie du unsere Produkte nutzt, beispielsweise über die Arten von Inhalten, die du dir ansiehst bzw. mit denen du interagierst, über die von dir genutzten Funktionen, über die von dir durchgeführten Handlungen, über die Personen oder Konten, mit denen du interagierst, und über die Zeit, Häufigkeit und Dauer deiner Aktivitäten. Zum Beispiel protokollieren wir, wenn du unsere Produkte gerade nutzt bzw. wann du diese zuletzt genutzt hast, und welche Beiträge, Videos und sonstigen Inhalte du dir in unseren Produkten ansiehst. Wir erfassen auch Informationen darüber, wie du Funktionen wie unsere Kamera nutzt.",
+          "add": ""
+        }
+      },
+      {
+        "id": 6,
+        "name": "Spotify",
+        "link": "",
+        "adressbuch": {
+          "answer": "nein",
+          "quote": "",
+          "add": ""
+        },
+        "standort": {
+          "answer": "nein, keine Info dazu gefunden",
+          "quote": "",
+          "add": "keine Info"
+        },
+        "nutzungsverhalten": {
+          "answer": "jein",
+          "quote": "Spotify kann, ist jedoch nicht dazu verpflichtet, nutzergenerierte Inhalte zu überwachen, prüfen oder editieren. In einzelnen Fällen behält sich Spotify das Recht vor, unter Rücksichtnahme Ihrer Interessen, den Zugang zu jeglichem nutzergenerierten Inhalt zu entfernen oder zu deaktivieren, wenn für diese Entscheidung berechtigte Gründe vorliegen. Solche Gründe können insbesondere dann vorliegen, wenn es notwendig ist, die Rechte, das Eigentum oder die Sicherheit der Spotify-Nutzer oder einer jeglichen anderen Person zu schützen, wenn die nutzergenerierten Inhalte gegen die Vereinbarungen verstoßen oder diese die Rechte eines Dritten verletzen. In diesem Fall wird Sie Spotify darüber informieren. Wir versprechen nicht, den Zugang zu irgendeinem bestimmten nutzergenerierten Inhalt zu beseitigen oder zu deaktivieren.",
+          "add": ""
+        },
+        "content": {
+          "answer": "nein",
+          "quote": "Wir verwenden standortbezogene Informationen – wie deinen aktuellen Standort, deinen Wohnort, die Orte, die du gerne besuchst, und die Unternehmen und Personen in deiner Nähe – um dir und anderen unsere Produkte, einschließlich Werbeanzeigen, bereitzustellen und diese zu verbessern. Standortbezogene Informationen können auf Dingen wie dem genauen Gerätestandort (wenn du uns gestattet hast, diesen zu erheben), IP-Adressen sowie Informationen aus der Nutzung von Facebook-Produkten durch dich und andere (wie besuchte Orte oder Veranstaltungen, an denen du teilgenommen hast) basieren.",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": "ja",
+          "quote": "[...] Weitergabe Ihres nutzergenerierten Inhalts in Verbindung mit den Diensten über jedwedes Medium, gleich, ob ausschließlich oder in Verbindung mit anderen Inhalten oder Materialien, in jeder Weise und auf jede Art, Verfahren oder Technologie, unabhängig davon, ob diese heute bereits bekannt ist oder hiernach entwickelt wird.",
+          "add": ""
+        }
+      },
+      {
+        "id": 7,
+        "name": "Telegram",
+        "link": "https://telegram.org/privacy/",
+        "adressbuch": {
+          "answer": "jein",
+          "quote": "Telegram uses phone numbers as unique identifiers, so that it is easy for you to switch from other messaging apps (SMS, WhatsApp, etc.) and retain your social graph. We ask your permission before syncing your contacts. We store your contacts in order to notify you as soon as one of your contacts signs up for Telegram and to properly display names in notifications. We only need the number and name (first and last) for this to work and store no other data about your contacts.",
+          "add": ""
+        },
+        "standort": {
+          "answer": "nein",
+          "quote": "",
+          "add": ""
+        },
+        "nutzungsverhalten": {
+          "answer": "nein",
+          "quote": "",
+          "add": ""
+        },
+        "content": {
+          "answer": "nein",
+          "quote": "",
+          "add": ""
+        },
+        "drittanbieter": {
+          "answer": "nein",
+          "quote": "We never share your data with anyone.",
+          "add": ""
+        }
+      }
+    ]
+  }
+]

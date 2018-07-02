@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Deploy
+
+Deployment via [`angular-cli-ghpages`](https://github.com/angular-schule/angular-cli-ghpages), follow the README for instructions.
+
+There is no automatic build or deployment setup.
+
+## Data
+
+The data used in the project was manually collected as part of [Data Expedition](https://datenschule.de/blog/2018/07/DS-data-expedition-datenspaziergang/)

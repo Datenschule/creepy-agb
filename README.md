@@ -40,14 +40,11 @@ So the steps would be:
 
 - `$ ng build --prod --base-href "https://datenschule.github.io/creepy-agb/"`
 
-- `$ angular-cli-ghpages`
-
-- `$ git checkout gh-pages && git pull`
-
 - copy over all static html
 
-- git commit and push
+- `$ angular-cli-ghpages`
 
+- This creates an `creepy-agb` folder on `gh-pages`. Pull from that branch. Move the contents to root with `$ mv creepy-agb/* .` and commit and push.
 
 ## Data
 

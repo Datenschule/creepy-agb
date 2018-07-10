@@ -30,7 +30,24 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Deployment via [`angular-cli-ghpages`](https://github.com/angular-schule/angular-cli-ghpages), follow the README for instructions.
 
-There is no automatic build or deployment setup.
+There is no automated build or deployment setup.
+
+**Edit**: Due to a wrong link being sent around, we need to account for people trying to access the app via the `/select` and `/services` routes directly.
+I hacked around that with static html files that just redirect to `/` where the app should load.
+While this works, it makes the deploy process a bit more of a hassle. The template file is in `src/services.html`, I copied it over manually to `dist/creepy-agb/services.html`, `dist/creepy-agb/select.html`, `dist/creepy-agb/services/index.html`, `dist/creepy-agb/services/index.html`. That should cover all the cases.
+
+So the steps would be:
+
+- `$ ng build --prod --base-href "https://datenschule.github.io/creepy-agb/"`
+
+- `$ angular-cli-ghpages`
+
+- `$ git checkout gh-pages && git pull`
+
+- copy over all static html
+
+- git commit and push
+
 
 ## Data
 

@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "html": "cp src/services.html dist/creepy-agb/services.html",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
